@@ -14,6 +14,10 @@
 		13D3598428899A03002E7A4B /* ToDoListProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13D3598228899A03002E7A4B /* ToDoListProject.xcdatamodeld */; };
 		13D3598628899A04002E7A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D3598528899A04002E7A4B /* Assets.xcassets */; };
 		13D3598928899A04002E7A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D3598728899A04002E7A4B /* LaunchScreen.storyboard */; };
+		13D3599128899C30002E7A4B /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3599028899C30002E7A4B /* ToDoTableTableViewController.swift */; };
+		13D3599328899CA9002E7A4B /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3599228899CA9002E7A4B /* ToDo.swift */; };
+		13D359952889BEB1002E7A4B /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D359942889BEB1002E7A4B /* AddToDoViewController.swift */; };
+		13D359972889CAD2002E7A4B /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D359962889CAD2002E7A4B /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		13D3598528899A04002E7A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D3598828899A04002E7A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D3598A28899A04002E7A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D3599028899C30002E7A4B /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableTableViewController.swift; sourceTree = "<group>"; };
+		13D3599228899CA9002E7A4B /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		13D359942889BEB1002E7A4B /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		13D359962889CAD2002E7A4B /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +69,14 @@
 				13D3597928899A03002E7A4B /* AppDelegate.swift */,
 				13D3597B28899A03002E7A4B /* SceneDelegate.swift */,
 				13D3597D28899A03002E7A4B /* ViewController.swift */,
-				13D3597F28899A03002E7A4B /* Main.storyboard */,
 				13D3598528899A04002E7A4B /* Assets.xcassets */,
 				13D3598728899A04002E7A4B /* LaunchScreen.storyboard */,
 				13D3598A28899A04002E7A4B /* Info.plist */,
+				13D3597F28899A03002E7A4B /* Main.storyboard */,
+				13D3599028899C30002E7A4B /* ToDoTableTableViewController.swift */,
+				13D3599228899CA9002E7A4B /* ToDo.swift */,
+				13D359942889BEB1002E7A4B /* AddToDoViewController.swift */,
+				13D359962889CAD2002E7A4B /* CompleteToDoViewController.swift */,
 				13D3598228899A03002E7A4B /* ToDoListProject.xcdatamodeld */,
 			);
 			path = ToDoListProject;
@@ -143,8 +155,12 @@
 			files = (
 				13D3597E28899A03002E7A4B /* ViewController.swift in Sources */,
 				13D3598428899A03002E7A4B /* ToDoListProject.xcdatamodeld in Sources */,
+				13D359972889CAD2002E7A4B /* CompleteToDoViewController.swift in Sources */,
 				13D3597A28899A03002E7A4B /* AppDelegate.swift in Sources */,
+				13D3599328899CA9002E7A4B /* ToDo.swift in Sources */,
+				13D359952889BEB1002E7A4B /* AddToDoViewController.swift in Sources */,
 				13D3597C28899A03002E7A4B /* SceneDelegate.swift in Sources */,
+				13D3599128899C30002E7A4B /* ToDoTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +310,7 @@
 				DEVELOPMENT_TEAM = 7UH65DH27P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoListProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,6 +339,7 @@
 				DEVELOPMENT_TEAM = 7UH65DH27P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoListProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
